@@ -18,6 +18,8 @@ io_utils.is_valid_backbone(backbone)
 #
 if backbone == "mobilenet_v2":
     from models.ssd_mobilenet_v2 import get_model, init_model
+elif backbone == "mobilenet_v2_only_mn":
+    from models.ssd_mobilenet_v2_only_mn import get_model, init_model
 else:
     from models.ssd_vgg16 import get_model, init_model
 #
