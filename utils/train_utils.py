@@ -24,7 +24,7 @@ SSD = {
                          [1., 2., 1./2.]],
     },
     "mobilenet_v2_only_mn": {
-        "img_size": 300,
+        "img_size": 320,
         "feature_map_shapes": [19, 10, 5, 3, 2, 1],
         "aspect_ratios": [[1., 2., 1./2.],
                          [1., 2., 1./2., 3., 1./3.],
